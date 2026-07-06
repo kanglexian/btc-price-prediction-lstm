@@ -1,0 +1,18 @@
+# 虚拟环境与缓存
+.venv/
+__pycache__/
+*.pyc
+.uv/
+
+# 原始数据与模型权重
+Data/*.csv
+*.h5
+*.weights.h5
+
+# 生成的图表与日志
+plots/
+*.log
+
+# 系统冗余文件
+Thumbs.db
+.DS_Store
